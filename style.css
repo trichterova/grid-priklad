@@ -23,3 +23,21 @@ html { box-sizing: border-box; }
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.prvni {
+  grid-column: 2 / 4;
+  grid-row: 3;
+}
+
+.modrý {
+  color: blue;
+  background-color: lightskyblue;
+  border-radius: 20%;
+  
+}
